@@ -13,8 +13,17 @@ import java.util.Scanner;
         }
         double avg = total/6;
         System.out.println(avg);
+        if (avg > 60) {
+            System.out.println("Gectiniz");
+        }else{
+            System.out.println("Kaldiniz");    
+        }
     }
 
 }
 
-
+/*
+git remote add origin https://github.com/abkarsandi/patika_java_homeworks.git
+git branch -M main
+git push -u origin main
+*/
